@@ -11,6 +11,7 @@
 		A4BC536C23B4A018008812FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4BC536B23B4A018008812FA /* main.cpp */; };
 		A4BC537723B4AAE3008812FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4BC537623B4AAE3008812FA /* main.cpp */; };
 		A4F58AA023B59FE000E0BB91 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4F58A9F23B59FE000E0BB91 /* main.cpp */; };
+		A4F58AC023B87ABF00E0BB91 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4F58ABF23B87ABF00E0BB91 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		A4F58ABB23B87ABF00E0BB91 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +71,8 @@
 		A4BC537623B4AAE3008812FA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A4F58A9D23B59FE000E0BB91 /* Heap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Heap; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F58A9F23B59FE000E0BB91 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A4F58ABD23B87ABF00E0BB91 /* Insertion_Sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Insertion_Sort; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F58ABF23B87ABF00E0BB91 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +104,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A4F58ABA23B87ABF00E0BB91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -102,6 +121,7 @@
 				A4BC536A23B4A018008812FA /* Stack_array */,
 				A4BC537523B4AAE3008812FA /* Stack_linkedlist */,
 				A4F58A9E23B59FE000E0BB91 /* Heap */,
+				A4F58ABE23B87ABF00E0BB91 /* Insertion_Sort */,
 				A4BC535C23B49FD4008812FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +133,7 @@
 				A4BC536923B4A018008812FA /* Stack_array */,
 				A4BC537423B4AAE3008812FA /* Stack_linkedlist */,
 				A4F58A9D23B59FE000E0BB91 /* Heap */,
+				A4F58ABD23B87ABF00E0BB91 /* Insertion_Sort */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +168,14 @@
 				A4F58A9F23B59FE000E0BB91 /* main.cpp */,
 			);
 			path = Heap;
+			sourceTree = "<group>";
+		};
+		A4F58ABE23B87ABF00E0BB91 /* Insertion_Sort */ = {
+			isa = PBXGroup;
+			children = (
+				A4F58ABF23B87ABF00E0BB91 /* main.cpp */,
+			);
+			path = Insertion_Sort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +249,23 @@
 			productReference = A4F58A9D23B59FE000E0BB91 /* Heap */;
 			productType = "com.apple.product-type.tool";
 		};
+		A4F58ABC23B87ABF00E0BB91 /* Insertion_Sort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F58AC323B87ABF00E0BB91 /* Build configuration list for PBXNativeTarget "Insertion_Sort" */;
+			buildPhases = (
+				A4F58AB923B87ABF00E0BB91 /* Sources */,
+				A4F58ABA23B87ABF00E0BB91 /* Frameworks */,
+				A4F58ABB23B87ABF00E0BB91 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Insertion_Sort;
+			productName = Insertion_Sort;
+			productReference = A4F58ABD23B87ABF00E0BB91 /* Insertion_Sort */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -241,6 +287,9 @@
 					A4F58A9C23B59FE000E0BB91 = {
 						CreatedOnToolsVersion = 10.3;
 					};
+					A4F58ABC23B87ABF00E0BB91 = {
+						CreatedOnToolsVersion = 10.3;
+					};
 				};
 			};
 			buildConfigurationList = A4BC535623B49FD4008812FA /* Build configuration list for PBXProject "Bsaic_DS" */;
@@ -259,6 +308,7 @@
 				A4BC536823B4A018008812FA /* Stack_array */,
 				A4BC537323B4AAE3008812FA /* Stack_linkedlist */,
 				A4F58A9C23B59FE000E0BB91 /* Heap */,
+				A4F58ABC23B87ABF00E0BB91 /* Insertion_Sort */,
 			);
 		};
 /* End PBXProject section */
@@ -293,6 +343,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4F58AA023B59FE000E0BB91 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F58AB923B87ABF00E0BB91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F58AC023B87ABF00E0BB91 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +532,22 @@
 			};
 			name = Release;
 		};
+		A4F58AC123B87ABF00E0BB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4F58AC223B87ABF00E0BB91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -518,6 +592,15 @@
 			buildConfigurations = (
 				A4F58AA123B59FE000E0BB91 /* Debug */,
 				A4F58AA223B59FE000E0BB91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F58AC323B87ABF00E0BB91 /* Build configuration list for PBXNativeTarget "Insertion_Sort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F58AC123B87ABF00E0BB91 /* Debug */,
+				A4F58AC223B87ABF00E0BB91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
