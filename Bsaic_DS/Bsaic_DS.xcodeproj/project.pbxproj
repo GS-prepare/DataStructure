@@ -174,14 +174,12 @@
 		A4BC535223B49FD4008812FA = {
 			isa = PBXGroup;
 			children = (
+				A4F58AF123BB37E300E0BB91 /* 高等Sort */,
+				A4F58AF023BB379E00E0BB91 /* 初等Sort */,
 				A4BC535D23B49FD4008812FA /* Bsaic_DS */,
 				A4BC536A23B4A018008812FA /* Stack_array */,
 				A4BC537523B4AAE3008812FA /* Stack_linkedlist */,
 				A4F58A9E23B59FE000E0BB91 /* Heap */,
-				A4F58ABE23B87ABF00E0BB91 /* Insertion_Sort */,
-				A4F58AC923B8895300E0BB91 /* Selection_Sort */,
-				A4F58AD423B88E6D00E0BB91 /* Bubble_Sort */,
-				A4F58ADF23B9CD8D00E0BB91 /* Shell_Sort */,
 				A4BC535C23B49FD4008812FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -263,6 +261,24 @@
 				A4F58AE023B9CD8D00E0BB91 /* main.cpp */,
 			);
 			path = Shell_Sort;
+			sourceTree = "<group>";
+		};
+		A4F58AF023BB379E00E0BB91 /* 初等Sort */ = {
+			isa = PBXGroup;
+			children = (
+				A4F58ABE23B87ABF00E0BB91 /* Insertion_Sort */,
+				A4F58AC923B8895300E0BB91 /* Selection_Sort */,
+				A4F58AD423B88E6D00E0BB91 /* Bubble_Sort */,
+				A4F58ADF23B9CD8D00E0BB91 /* Shell_Sort */,
+			);
+			path = "初等Sort";
+			sourceTree = "<group>";
+		};
+		A4F58AF123BB37E300E0BB91 /* 高等Sort */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "高等Sort";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
